@@ -1,0 +1,14 @@
+C:\Users\notbad\RiderProjects\Algorithms.Assignment.1\Algorithms.Assignment.1\bin\Debug\net8.0\Algorithms.Assignment.1.exe
+C:\Users\notbad\RiderProjects\Algorithms.Assignment.1\Algorithms.Assignment.1\bin\Debug\net8.0\Algorithms.Assignment.1.deps.json
+C:\Users\notbad\RiderProjects\Algorithms.Assignment.1\Algorithms.Assignment.1\bin\Debug\net8.0\Algorithms.Assignment.1.runtimeconfig.json
+C:\Users\notbad\RiderProjects\Algorithms.Assignment.1\Algorithms.Assignment.1\bin\Debug\net8.0\Algorithms.Assignment.1.dll
+C:\Users\notbad\RiderProjects\Algorithms.Assignment.1\Algorithms.Assignment.1\bin\Debug\net8.0\Algorithms.Assignment.1.pdb
+C:\Users\notbad\RiderProjects\Algorithms.Assignment.1\Algorithms.Assignment.1\obj\Debug\net8.0\Algorithms.Assignment.1.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\notbad\RiderProjects\Algorithms.Assignment.1\Algorithms.Assignment.1\obj\Debug\net8.0\Algorithms.Assignment.1.AssemblyInfoInputs.cache
+C:\Users\notbad\RiderProjects\Algorithms.Assignment.1\Algorithms.Assignment.1\obj\Debug\net8.0\Algorithms.Assignment.1.AssemblyInfo.cs
+C:\Users\notbad\RiderProjects\Algorithms.Assignment.1\Algorithms.Assignment.1\obj\Debug\net8.0\Algorithms.Assignment.1.csproj.CoreCompileInputs.cache
+C:\Users\notbad\RiderProjects\Algorithms.Assignment.1\Algorithms.Assignment.1\obj\Debug\net8.0\Algorithms.Assignment.1.dll
+C:\Users\notbad\RiderProjects\Algorithms.Assignment.1\Algorithms.Assignment.1\obj\Debug\net8.0\refint\Algorithms.Assignment.1.dll
+C:\Users\notbad\RiderProjects\Algorithms.Assignment.1\Algorithms.Assignment.1\obj\Debug\net8.0\Algorithms.Assignment.1.pdb
+C:\Users\notbad\RiderProjects\Algorithms.Assignment.1\Algorithms.Assignment.1\obj\Debug\net8.0\Algorithms.Assignment.1.genruntimeconfig.cache
+C:\Users\notbad\RiderProjects\Algorithms.Assignment.1\Algorithms.Assignment.1\obj\Debug\net8.0\ref\Algorithms.Assignment.1.dll

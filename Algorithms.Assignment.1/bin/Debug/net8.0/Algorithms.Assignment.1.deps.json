@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v8.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v8.0": {
+      "Algorithms.Assignment.1/1.0.0": {
+        "runtime": {
+          "Algorithms.Assignment.1.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Algorithms.Assignment.1/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
