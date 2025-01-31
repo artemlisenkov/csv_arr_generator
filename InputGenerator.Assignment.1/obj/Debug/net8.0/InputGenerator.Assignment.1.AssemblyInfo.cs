@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("InputGenerator.Assignment.1")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+9d0d5934ad022a92577f68b07b1b4b2ed0ec347d")]
 [assembly: System.Reflection.AssemblyProductAttribute("InputGenerator.Assignment.1")]
 [assembly: System.Reflection.AssemblyTitleAttribute("InputGenerator.Assignment.1")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

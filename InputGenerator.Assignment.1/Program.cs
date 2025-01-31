@@ -2,7 +2,7 @@
 using System.IO;
 
 // Generate random array of specified size
-int[] GenerateRandomArray(int size, int min = 1, int max = 100)
+int[] GenerateRandomArray(int size, int min = 1, int max = 1000)
 {
     Random random = new Random();
     int[] array = new int[size];
@@ -14,7 +14,7 @@ int[] GenerateRandomArray(int size, int min = 1, int max = 100)
 }
 
 // Generate a pre-sorted array
-int[] GenerateSortedArray(int size, int min = 1, int max = 100)
+int[] GenerateSortedArray(int size, int min = 1, int max = 1000)
 {
     int[] array = GenerateRandomArray(size, min, max);
     Array.Sort(array); // Sort the array
@@ -22,7 +22,7 @@ int[] GenerateSortedArray(int size, int min = 1, int max = 100)
 }
 
 // Generate a reverse-sorted array
-int[] GenerateReverseSortedArray(int size, int min = 1, int max = 100)
+int[] GenerateReverseSortedArray(int size, int min = 1, int max = 1000)
 {
     int[] array = GenerateSortedArray(size, min, max);
     Array.Reverse(array); // Reverse the sorted array
@@ -62,25 +62,28 @@ int[][] GeneratePredefinedDatasets()
     int[][] datasets = new int[][]
     {
         // Random arrays for each size
-        GenerateRandomArray(5),       // Random dataset with 5 elements
-        GenerateRandomArray(15),      // Random dataset with 15 elements
-        GenerateRandomArray(30),      // Random dataset with 30 elements
-        GenerateRandomArray(50),      // Random dataset with 50 elements
-        GenerateRandomArray(500),     // Random dataset with 500 elements
+        GenerateRandomArray(5),
+        GenerateRandomArray(15),
+        GenerateRandomArray(30),
+        GenerateRandomArray(50),
+        GenerateRandomArray(500),
+        GenerateRandomArray(5000),
 
         // Sorted arrays for each size
-        GenerateSortedArray(5),       // Sorted dataset with 5 elements
-        GenerateSortedArray(15),      // Sorted dataset with 15 elements
-        GenerateSortedArray(30),      // Sorted dataset with 30 elements
-        GenerateSortedArray(50),      // Sorted dataset with 50 elements
-        GenerateSortedArray(500),     // Sorted dataset with 500 elements
+        GenerateSortedArray(5),
+        GenerateSortedArray(15),
+        GenerateSortedArray(30),
+        GenerateSortedArray(50),
+        GenerateSortedArray(500),
+        GenerateSortedArray(5000),
 
         // Reverse-sorted arrays for each size
-        GenerateReverseSortedArray(5),       // Reverse-sorted dataset with 5 elements
-        GenerateReverseSortedArray(15),      // Reverse-sorted dataset with 15 elements
-        GenerateReverseSortedArray(30),      // Reverse-sorted dataset with 30 elements
-        GenerateReverseSortedArray(50),      // Reverse-sorted dataset with 50 elements
-        GenerateReverseSortedArray(500)      // Reverse-sorted dataset with 500 elements
+        GenerateReverseSortedArray(5),
+        GenerateReverseSortedArray(15),
+        GenerateReverseSortedArray(30),
+        GenerateReverseSortedArray(50),
+        GenerateReverseSortedArray(500),
+        GenerateReverseSortedArray(5000)
     };
     return datasets;
 }
@@ -94,20 +97,15 @@ string reverseSortedFilePath = "reverse_sorted_arrays.csv";
 int[][] datasets = GeneratePredefinedDatasets();
 
 // Separate the datasets into three variations
-int[][] randomDatasets = new int[5][];
-int[][] sortedDatasets = new int[5][];
-int[][] reverseSortedDatasets = new int[5][];
+int[][] randomDatasets = new int[6][];
+int[][] sortedDatasets = new int[6][];
+int[][] reverseSortedDatasets = new int[6][];
 
-for (int i = 0; i < 5; i++)
+for (int i = 0; i < 6; i++)
 {
-    // Assign random arrays
     randomDatasets[i] = datasets[i]; 
-
-    // Assign sorted arrays
-    sortedDatasets[i] = datasets[i + 5]; 
-
-    // Assign reverse-sorted arrays
-    reverseSortedDatasets[i] = datasets[i + 10]; 
+    sortedDatasets[i] = datasets[i + 6]; 
+    reverseSortedDatasets[i] = datasets[i + 12]; 
 }
 
 // Save each set of arrays to its own file
@@ -152,4 +150,3 @@ else
 {
     Console.WriteLine($"File {reverseSortedFilePath} does not exist.");
 }
-
